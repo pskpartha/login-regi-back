@@ -1,0 +1,23 @@
+{
+  "name": "jwt-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pskpartha/login-regi-back.git"
+  },
+  "author": "pskpartha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pskpartha/login-regi-back/issues"
+  },
+  "homepage": "https://github.com/pskpartha/login-regi-back#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.4"
+  }
+}
