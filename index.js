@@ -5,9 +5,8 @@ app.get('/', function (req, res) {
    res.send('Hello World');
 })
 
-var server = app.listen(process.env.PORT || 3000, function () {
-   var host = server.address().address
-   var port = server.address().port
-   
-   console.log("Example app listening at http://%s:%s", host, port)
-})
+app.set( 'port', ( process.env.PORT || 5000 ));
+
+app.listen( app.get( 'port' ), function() {
+    console.log( 'Node server is running on port ' + app.get( 'port' ));
+ });
